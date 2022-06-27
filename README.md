@@ -67,7 +67,7 @@ Olá! você está no projeto AdoptPet, um app feito para um desafio proposto pel
       },
     ]
   };
-
+ ``` 
   - Como pode ver dentro de cada usuário tem as suas devidas informações como email (Utilizado para o login) e o tipo de conta utilizado para mostrar algumas informações a mais no app
 
   - A partir desses dados foi gerado um Model para organização de informações e um repositório para controle de tais informações.
