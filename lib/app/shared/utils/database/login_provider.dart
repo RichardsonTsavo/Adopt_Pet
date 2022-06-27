@@ -6,7 +6,9 @@ class LoginProvider {
     Map<String, dynamic>? infoUser;
 
     for (var element in data["users"]) {
-      if (element["userEmail"] == email) {
+      if (element["userEmail"].toString().trim()
+            .toLowerCase() == email.trim()
+            .toLowerCase()) {
         infoUser = element;
       }
     }
