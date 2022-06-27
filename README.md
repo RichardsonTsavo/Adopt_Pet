@@ -3,7 +3,7 @@
 Desafio WaProject
 
 Link do APK do APP: https://drive.google.com/file/d/16IZhguHLchkbho_yYgWMmePuEXBAX9n0/view?usp=sharing
-
+<p float="left">
 <img src="https://user-images.githubusercontent.com/57848633/175938602-91aa6b80-0e70-4df0-9cf6-aeb90488d0d0.png" width="200">  
 <img src="https://user-images.githubusercontent.com/57848633/175938608-d7e99474-2a77-4e04-b667-da95420dfd22.png" width="200">  
 <img src="https://user-images.githubusercontent.com/57848633/175938611-f18e5897-5143-4cfa-978e-0970abcb60bf.png" width="200">  
@@ -12,7 +12,7 @@ Link do APK do APP: https://drive.google.com/file/d/16IZhguHLchkbho_yYgWMmePuEXB
 <img src="https://user-images.githubusercontent.com/57848633/175938623-46faf3d7-a361-4a3b-ae54-fd96aae72e8b.png" width="200">
 <img src="https://user-images.githubusercontent.com/57848633/175938632-6700dab7-4393-4b4f-9760-29679b7dbfc5.png" width="200">
 <img src="https://user-images.githubusercontent.com/57848633/175938640-16f6e758-c4f5-42b7-a3f0-57730fbb6b71.png" width="200">
-
+</p>
 # Documentação
 
 Olá! você está no projeto AdoptPet, um app feito para um desafio proposto pela empresa WaProject, aqui você vai encontrar tudo que precisa saber sobre o projeto, desde a sua estrutura, tecnologias e recursos.
