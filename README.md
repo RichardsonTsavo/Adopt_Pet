@@ -15,7 +15,7 @@ Link do APK do APP: https://drive.google.com/file/d/16IZhguHLchkbho_yYgWMmePuEXB
 
 # Documentação
 
-Olá, você está no projeto AdoptPet, um app feito para um desafio proposto pela empresa WaProject, aqui você vai encontrar tudo que você precisa saber sobre o projeto desde sua estrutura, tecnologias e recursos
+Olá! você está no projeto AdoptPet, um app feito para um desafio proposto pela empresa WaProject, aqui você vai encontrar tudo que precisa saber sobre o projeto, desde a sua estrutura, tecnologias e recursos.
 
 * Tecnologias e Recursos
  - Flutter
@@ -29,15 +29,16 @@ Olá, você está no projeto AdoptPet, um app feito para um desafio proposto pel
 
 
 * Estrutura:
- - Para a estrutura do projeto decidi utilizar o Flutter modular e o Repository patern assim facilintando na criando singletons que são utilizados por todo o app, além de separar as requisições por arquivos com contratos assim centralizando todas as informações das requisições.
+ - Para a estrutura do projeto decidi utilizar o Flutter modular e o Repository patern assim facilitando na criando singletons utilizados por todo o app, além de separar as requisições por arquivos com contratos assim centralizando todas as informações das requisições.
  
 * Controle de estado:
- Para o controle do estado de cada widget na tela o Mobx cuida de atualizar somente o widget nescessario para cada momento assim otimizando o gasto de processamento pelo app.
+ - Para o controle do estado de cada widget na tela o Mobx cuida de atualizar somente o widget necessário para cada momento assim otimizando o gasto de processamento.
 
 * Login:
- - Para o login foi criado um arquivo json que é utilizado como banco de dados com as informações de usuários gerados pelo Site: https://randomuser.me/ 
+ - Para o login foi criado um arquivo json utilizado como banco de dados com as informações dos usuários gerados pelo Site: https://randomuser.me/ 
 
  - informaçoes do json:
+ ```yaml
  {
     "users": [
       {
@@ -67,19 +68,19 @@ Olá, você está no projeto AdoptPet, um app feito para um desafio proposto pel
     ]
   };
 
-  - Como pode ver dentro de cada usuário tem as suas devidas informações como email(Utilizado para o login e o tipo deconta que é utilizado para mostrar algumas informações a mais dentro do app)
+  - Como pode ver dentro de cada usuário tem as suas devidas informações como email (Utilizado para o login) e o tipo de conta utilizado para mostrar algumas informações a mais no app
 
   - A partir desses dados foi gerado um Model para organização de informações e um repositório para controle de tais informações.
 
 
 * Login Persistente:
- - Para o login persistente foi utilizado um package chamado Shared Preference na qual ao fazer login o sistema guarda na memoria o email do usuário criptografado em base64 assim ao abrir ou fechar o app o sistema mantem o usuário logado.
+ - Para o login persistente foi utilizado um package chamado Shared Preference onde ao efetuar o login o sistema guarda na memória o email do usuário criptografado em base64 assim ao abrir ou fechar o app o sistema mantem o usuário logado.
 
  * Requisições:
   - Para as requisições externas o projeto utiliza o package Dio que permite fazer as requisições de forma simples e descomplicadas.
 
  * Customizações:
-  - Costumo criar arquivos constumizados de alguns Widgets e funções para facilitar a minha vida, então dentro da pasta shared/utils irá ter alguns componentes como um TextFormFild customizado que me permite agilizar a produção de algumas telas.
+  - Costumo criar arquivos customizados de alguns Widgets e funções para facilitar a minha vida, então na pasta shared/utils irá ter alguns componentes como um CustomTextFormField que me permite agilizar a produção de formulários.
 
  * Design:
-  - Essa sinceramente foi a parte mais facil, pois como o tema Pet costuma utilizar cores bem vibrantes foi facil encontrar imagens para me basear, então tudo foi feito com carinho para se tornar um app Simples mas gostoso de se ver. 
+  - Essa sinceramente foi a parte mais fácil, pois como o tema Pet costuma utilizar cores bem vibrantes foi simples encontrar imagens para me basear, então tudo foi questão de pesquisa no Google.
